@@ -3,12 +3,40 @@ body {margin:0;
       padding:0;
       height:120vh;
       width:100%;
+      display: grid;
+      grid-template-rows: 10vh 90vh 20vh;
 }
 
-header {height:10vh;
-        background:linear-gradient(70deg,#2E6F95 ,#455E89,#5C4D7D,#723C70,#892B64 );
-        border-bottom: 1px solid #FFFFFF;
+body > header {height:10vh;
+               background:linear-gradient(70deg,#2E6F95 ,#455E89,#5C4D7D,#723C70,#892B64 );
+               border-bottom: 1px solid #FFFFFF;
+               display:grid;
+               grid-template-columns:1fr 4fr;
+        
 }
+
+body > header > figure {
+              height:1px;
+              width:1px;
+              color:#FFFFFF;
+              margin:0;
+              text-align:center;
+             
+}
+
+body > header ul {
+              font-family:'Montserrat', sans-serif;
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              height: 100%;
+              color:#FFFFFF;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+}
+
+              
+
 
 
 main {height:90vh;
