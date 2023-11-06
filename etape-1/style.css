@@ -1,0 +1,24 @@
+body {margin:0;
+      border:0;
+      padding:0;
+      height:120vh;
+      width:100%;
+}
+
+header {height:10vh;
+        background:linear-gradient(70deg,#2E6F95 ,#455E89,#5C4D7D,#723C70,#892B64 );
+        border-bottom: 1px solid #FFFFFF;
+}
+
+
+main {height:90vh;
+      width:100%;
+      background:linear-gradient(70deg,#2E6F95 ,#455E89,#5C4D7D,#723C70,#892B64 );
+}
+      
+      
+footer {height:20vh;
+        width:100%;
+        background-color:white;
+}
+
